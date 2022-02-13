@@ -67,24 +67,25 @@
   color: var(--gray10);
 }
 
+
+
 /* Page 4 */
 .verticalPlaylist-title.is-page4 {
   inline-size: 22rem;
+
 }
 
 .verticalpage2lbum.is-page4 {
-  inline-size: 10rem;
+  inline-size: 4rem;
 }
 
 .verticalPlaylist-date.is-page4 {
-  inline-size: 9rem;
+  inline-size: 16.5rem;
   color: var(--white);
 }
 
 .verticalPlaylist-time.is-page4 {
   color: var(--white);
-
-
 }
 
 .u-noMargin{

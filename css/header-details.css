@@ -1,3 +1,5 @@
+@import './nav-profile.css';
+
 .headerDetails {
   display: flex;
   align-items: center;
@@ -36,7 +38,7 @@
 }
 
 .headerDetails-clock {
-  /* inline-size: 3rem; */
+  inline-size: 3rem;
 }
 
 /* Page 4 */
@@ -45,26 +47,50 @@
 }
 
 .headerDetails-title.is-page4 {
-  margin-inline-start: .8rem;
+  margin-inline-start: .4rem;
 }
 
 .headerDetails-title.is-page4:before {
   content: '#';
   margin-inline-end: 1.5rem;
-  font: var(--subtitle);
+  font: var(--baseFont);
   font-size: 1rem;
 }
 
 .headerDetails-album.is-page4 {
-  inline-size: 10rem;
+  inline-size: 9rem;
 }
 
 .headerDetails-calendar.is-page4 {
-  inline-size: 9rem;
+  inline-size: 15.5rem;
+
 }
 
 .headerDetails.is-page4 {
   color: var(--white);
   inline-size: 100%;
   justify-content: space-between;
+}
+
+
+@import './profile.css';
+@import './sub-level.css';
+
+.navProfile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  inline-size: 12.5rem;
+}
+
+.navProfile .profile {
+  align-self: flex-end;
+}
+
+.navProfile:focus-within > .subLevel {
+  display: flex;
+}
+
+.navProfile .subLevel {
+  display: none;
 }

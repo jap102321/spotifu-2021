@@ -36,6 +36,7 @@
   --headline1: bold 2rem/normal var(--basefontFamily);
   --headline2: bold 1.5rem/1.75rem var(--basefontFamily);
   --baseFont: normal .875rem/1.375rem var(--basefontFamily);
+  --subtitle: 400 .75rem/1rem var(--baseFontFamily);
   --baseFontBold: bold .875rem/1.375rem var(--basefontFamily);
   --button: bold .875rem/1rem var(--baseFontFamily);
   --small: normal .75em/normal var(--basefontFamily);
