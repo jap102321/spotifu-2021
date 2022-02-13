@@ -1,0 +1,10 @@
+.filterSongs{
+ background:transparent;
+ backdrop-filter: blur(1.5px);
+}
+
+.filterSongs i{
+  inline-size: 0.8rem;
+  block-size: auto;
+}
+

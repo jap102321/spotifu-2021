@@ -14,8 +14,12 @@
 @import './slider.css';
 @import './player.css';
 @import './page.css';
+@import './playlist1.css';
 @import './layout.css';
+@import './filter.css';
 @import './scrollbar.css';
+@import './inline-playlist.css';
+
 
 
 :root {

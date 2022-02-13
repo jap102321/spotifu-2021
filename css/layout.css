@@ -2,13 +2,14 @@
   --sidebarInlineSize:15rem;
   --minBlockSize:37.5rem;
   --minInlineSize:48rem;
-  --bottomSize:5.5rem;
+  --bottomSize:2rem;
+  --imageSize: 100vh;
 }
 
 
 .layout{
   min-inline-size: var(--minInlineSize);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .layout-sidebar{
@@ -22,13 +23,34 @@
 .layout-main{
  block-size: calc(100vh - var(--bottomSize));
  overflow: auto;
+ /* border: 1px solid red; */
+}
+
+.layoutMain-playlist{
+  /* border: 1px solid red; */
+  block-size: calc(100vh - var(--bottomSize));
+  /* overflow: auto; */
+  /* border: 1px solid red; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background-playlist.png);
+}
+
+.layoutMain-playlist img{
+  width: 100%;
+  height: auto;
 }
 
 .layout-bottom{
 flex: 1;
 block-size: var(--bottomSize);
+
 }
 
 .layout-block{
   display: flex;
+}
+
+.layoutBlock-playlist{
+
+ display: flex;
+ align-items: center;
 }

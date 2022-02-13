@@ -1,0 +1,29 @@
+@import './collage.css';
+
+.playlist4Details{
+  display: flex;
+  margin-block-end: 1rem;
+}
+
+.cover-playlist4 img{
+   inline-size: 14.5rem;
+   block-size: 14.5rem;
+}
+
+.playlist4Info{
+  margin-inline-start: .8rem;
+}
+
+.buttonPlaylist4{
+  margin-block-end:1rem;
+}
+
+#playlist4Title{
+  font: var(--headline1);
+  color: white;
+}
+
+#playlist4Detail{
+  font: var(--small);
+  color: white;
+}

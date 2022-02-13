@@ -33,3 +33,31 @@ padding-inline-start: 2rem;
 .search input::-webkit-input-placeholder{
 color:var(--gray10)
 }
+
+
+.searchPlaylist{
+  position: relative;
+   flex-shrink: 0;
+   flex-grow: 1;
+}
+
+.searchPlaylist i{
+  position: absolute;
+  font-size: 1rem ;
+  left: .5rem;
+  top: calc(50% - .5rem);
+  block-size: 1rem;
+  color: var(--gray10);
+  }
+
+  .searchPlaylist input{
+    font: var(--baseFont);
+    background: transparent;
+    color: var(--white);
+    border-radius: 1.25rem;
+    border:none;
+    max-inline-size: 22rem;
+    width: 100%;
+    padding: .5rem;
+    padding-inline-start: 2rem;
+  }

@@ -1,0 +1,76 @@
+.hero-playlist{
+ display:flex;
+ justify-content: center;
+ /* border: 1px solid red; */
+ padding-block-start:6.1rem ;
+ padding-block-end:2.5rem;
+
+}
+
+.hero-playlist img{
+ inline-size: 70rem;
+}
+
+.hero-playlist a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+.textArea-hero{
+ flex-direction: column;
+ justify-content: center;
+ /* border: 1px solid red; */
+ padding: 1rem;
+
+}
+
+.textArea-hero{
+
+}
+
+.textArea-hero{
+  color: var(--white);
+  text-align: center;
+  margin: 0;
+}
+
+
+.textArea-hero h1{
+  font:var(--headline1);
+  margin:0;
+}
+
+.heroDetails{
+  font-size: normal;
+  padding-block:1rem;
+}
+
+.heroDetails h3{
+  margin: 0;
+  font: var(--baseFont);
+}
+
+.heroDetails h4{
+  margin: 0;
+  font: var(--baseFont);
+}
+
+.buttonPlaylist{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ /* border: 1px solid red;*/
+
+}
+
+
+.buttonIconPlaylist{
+  background:var(--primary);
+  inline-size: 9.5rem;
+  height: 2rem;
+  border-radius:70px;
+  border:none;
+  color: var(--white);
+  font:var(--baseFont);
+  cursor:pointer;
+}

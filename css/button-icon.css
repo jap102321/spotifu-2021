@@ -18,6 +18,10 @@
   color: var(--white);
 }
 
+.buttonPlaylist{
+
+}
+
 .buttonIcon .icon-play{
   position: relative;
   left: 1px;

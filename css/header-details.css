@@ -1,0 +1,70 @@
+.headerDetails {
+  display: flex;
+  align-items: center;
+  inline-size: 67.93rem;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.headerDetails > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding: 0.2rem;
+  font: var(--small);
+  overflow: hidden;
+}
+
+.headerDetails-title {
+  /* inline-size: 20rem; */
+  inline-size: 20rem;
+  margin-inline-start: 5.125rem;
+}
+
+.headerDetails-artist {
+  /* inline-size: 17rem; */
+  inline-size: 15.4rem;
+}
+
+.headerDetails-album {
+  /* inline-size: 17rem; */
+  inline-size: 15.2rem;
+}
+
+.headerDetails-calendar {
+  /* inline-size: 5.625rem; */
+  inline-size: 2.5rem;
+}
+
+.headerDetails-clock {
+  /* inline-size: 3rem; */
+}
+
+/* Page 4 */
+.headerDetails.is-page4 {
+  border-bottom: 1px solid var(--gray20);
+}
+
+.headerDetails-title.is-page4 {
+  margin-inline-start: .8rem;
+}
+
+.headerDetails-title.is-page4:before {
+  content: '#';
+  margin-inline-end: 1.5rem;
+  font: var(--subtitle);
+  font-size: 1rem;
+}
+
+.headerDetails-album.is-page4 {
+  inline-size: 10rem;
+}
+
+.headerDetails-calendar.is-page4 {
+  inline-size: 9rem;
+}
+
+.headerDetails.is-page4 {
+  color: var(--white);
+  inline-size: 100%;
+  justify-content: space-between;
+}

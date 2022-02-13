@@ -1,0 +1,29 @@
+
+.playlist-inline2{
+  border: 1px solid red;
+
+}
+.playlist-container2{
+  display: flex;
+}
+
+.playlist-container2 ul{
+  list-style: none;
+}
+
+.playlist-container2 li{
+  justify-content: ;
+}
+
+.playlist-titles2{
+
+ margin-inline-start: 6.3rem;
+
+}
+
+
+
+.playlist-content2{
+
+}
+

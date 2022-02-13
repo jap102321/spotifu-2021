@@ -1,0 +1,28 @@
+.playlist3Details{
+  margin-block-start:2.2rem;
+  margin-block-end: 2.6rem;
+  display: flex;
+}
+
+.playlist3Info{
+  margin-inline-start: 1.3rem;
+}
+
+#playlist3Detail{
+  font: var(--baseFont);
+  color: white;
+}
+
+
+#playlist3Title{
+  font: var(--headline1);
+  color: var(--white);
+}
+
+.buttonPlaylist3{
+  left: -30px;
+}
+
+.cover-playlist3 img{
+  width:20rem;
+}

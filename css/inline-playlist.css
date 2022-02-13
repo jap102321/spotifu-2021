@@ -1,0 +1,53 @@
+@import './songContainer.css';
+@import './vertical-section-interactive.css';
+@import './vertical-playlist.css';
+@import './header-details.css';
+@import './playlist3.css';
+@import './playlist4.css';
+
+
+.playlist-inline{
+ border: 1px solid red;
+  overflow: hidden;
+}
+
+
+.playlist-container{
+ display: inline-flex;
+ justify-content: space-between;
+ inline-size: 66rem;
+ /* border: 1px solid red; */
+ /* border: 1px solid red; */
+ font: var(--font-base);
+}
+
+.playlist-titles{
+
+}
+
+.layoutBlock-playlist{
+  background-image: url('../images/background-playlist.png');
+}
+
+.page-blockPlaylist{
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+}
+
+.icons{
+ display: flex;
+ flex-direction: row;
+ gap: 1rem;
+
+}
+.playlist-inside{
+ color: white;
+}
+
+
+
+
+
+h4{
+  font: var(--baseFont);
+}

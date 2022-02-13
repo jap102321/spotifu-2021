@@ -12,7 +12,7 @@ top: 0;
 z-index: 1; */
 }
 
-@supports not(backdrop-filter:blur(1.5px) ;){
+@supports not(backdrop-filter:blur(1.5px)){
  .header{
    background: var(--gray50);
  }
